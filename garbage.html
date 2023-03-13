@@ -1,0 +1,132 @@
+<div class="ham">
+    <!-- hamburger menu start-->
+    <div class="drawer">
+      <input id="my-drawer" type="checkbox" class="drawer-toggle" />
+      <div class="drawer-content" >
+        <!-- Page content here -->
+        <label for="my-drawer" class="btn drawer-button menubtn">
+          
+          <svg class="swap-off fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"/></svg>
+          
+        </label>
+      </div> 
+      <div class="drawer-side">
+        <label for="my-drawer" class="drawer-overlay"></label>
+        <ul class="menu p-4 w-80 bg-zinc-800 text-base-content">
+          <!-- Sidebar content here -->
+          <img class="mb-5" src="./PF/ParsaLogoT-white.png" alt="">
+          <li ><a href="#">About Me</a></li>
+          <li ><a href="#">Gallery</a></li>
+          <li ><a href="#">Contact</a></li>
+          <li ><a href="https://linktr.ee/parsakhatam">Linktree</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  <!-- hamburger menu start-->
+</div>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+    <!-- top bar-->
+
+
+    
+    <!-- end of top bar-->
+
+    <div class="grid1">
+      <div class="about">
+        <h1> About Parsa</h1>
+        <p>
+          This is Parsa. I love Art and Technology and those are my work fields. I've got my Bachelor's of Photography and beside my artistic life, I started learning to become a web developer.
+          My passion and love for learning and improving myself never ends and I'm always eager to expand my knowledge.
+          <br>
+          I've designed this website for you to get to know me and my works better so that we can be in <a href="#">contact</a> easier.
+        </p>
+      </div>
+      <div class="p-5">
+        <img src="./PF/Mobile/IMG_0044.JPG" alt="">
+        
+      </div>
+      
+
+    </div>
+
+    <div class="ham">
+        <!-- hamburger menu start-->
+        <div class="drawer">
+          <input id="my-drawer" type="checkbox" class="drawer-toggle" />
+          <div class="drawer-content" >
+            <!-- Page content here -->
+            <label for="my-drawer" class="btn drawer-button menubtn">
+              
+              <svg class="swap-off fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"/></svg>
+              
+            </label>
+          </div> 
+          <div class="drawer-side">
+            <label for="my-drawer" class="drawer-overlay"></label>
+            <ul class="menu p-4 w-80 bg-zinc-800 text-base-content">
+              <!-- Sidebar content here -->
+              <img class="mb-5" src="./PF/ParsaLogoT-white.png" alt="">
+              <li ><a href="#">About Me</a></li>
+              <li ><a href="#">Gallery</a></li>
+              <li ><a href="#">Contact</a></li>
+              <li ><a href="https://linktr.ee/parsakhatam">Linktree</a></li>
+              
+            </ul>
+          </div>
+        </div>
+      <!-- hamburger menu start-->
+    </div>    
+
+</body>
+</html>
+
+
+
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image:linear-gradient( to right , rgb(0, 0, 0) ,  rgb(79, 79, 79) );
+}
+div.grid1 {
+  width: 75%;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  display: grid;
+  grid-template-columns: 65% 30%;
+  z-index: 0;
+}
+.menubtn {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+}
+.pic {
+  width: 100%;
+  height: 100vh;
+}
+div.about>h1 {
+  font-size: 32px;
+  margin:20px 0;
+}
+.z100{
+  z-index: 100;
+}
